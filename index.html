@@ -19,11 +19,15 @@
             </div>
             <form>
                 <div class="input-wrapper">
-                    <ion-icon name="person"></ion-icon>
-                    <input type="email" name="user" id="user" autocomplete="email" required placeholder="Seu e-mail">
+                    <label for="email">
+                        <ion-icon name="person"></ion-icon>
+                    </label>
+                    <input type="email" name="email" id="email" autocomplete="email" required placeholder="Seu e-mail">
                 </div>
                 <div class="input-wrapper">
-                    <ion-icon name="key"></ion-icon>
+                    <label for="password">
+                        <ion-icon name="key"></ion-icon>
+                    </label>
                     <input type="password" name="password" id="password" required placeholder="Sua senha" minlength="8">
                 </div>
                 <input type="submit" value="Entrar" class="bttn-login" id="bttn-enter">
